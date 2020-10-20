@@ -1,0 +1,111 @@
+.navbar-fixed-top{
+  height: 9%;
+}
+.navbar-right{
+  display:inline-block;
+  color: black;
+  font-family:sans-serif;
+  font-weight: bold;
+  font-size:132%;
+  letter-spacing: 2px;
+  padding-left: 4px;
+  text-decoration: none;
+}
+
+#welcometext {
+font-family: monospace;
+font-weight:520;
+font-size:450%;
+letter-spacing: .15em;
+text-align:center;
+margin-top:2%;
+}
+
+
+.banner{
+  background-image: linear-gradient(#ffafbd,#ffc3a0);
+  border-radius: 8px;
+  margin-top: 5%;
+}
+
+#textban{
+  padding: 80px 0;
+  color:#FFFFFF;
+  text-align: center;
+  font-weight:150;
+  font-size:40px;
+  line-height:1em;
+  font-family:Arial;
+}
+
+
+
+.card{
+  border:1.5px solid #eee;
+  margin-top:40%;
+  margin-bottom: 9%;
+}
+.card:hover{
+    box-shadow:  1px 1px 5px 3px  #DBE0E3;
+}
+.card-body{
+  padding:3px 7px 0px 8px;
+}
+.card-text{
+  text-align:center;
+  font-family: sans-serif;
+  line-height: 1.1em;
+  font-size:30px;
+  color: #55504D;
+}
+
+
+.pay{
+  text-align: center;
+  font-family: sans-serif;
+  margin-top:8%;
+  background-image: -webkit-linear-gradient(#F9F4F4 ,#F8F4F4 ,#CEC9C9  );
+  width:auto;
+}
+.jumbo{
+  font-size: 175%;
+}
+
+#donate {
+    padding:12px;
+    margin-bottom:2%;
+    background-color: #5DADE2;
+    border:1px solid transparent;
+    border-radius: 4px;
+    width: 40%;}
+#donate:hover{
+        box-shadow:  1px 1px 5px 3px  grey;
+    }
+footer{
+      margin-top:5%;
+      text-align: center;
+      font-size: 28px;
+    }
+
+
+    @media only screen and (min-width:320px) and (max-width:640px)
+    {
+    #logo{
+    margin-top:-18%;
+    }
+    #welcometext {
+    font-weight:320;
+    font-size:250%;
+    }
+    #imgbg{
+      height: 50%;
+      width:100%;
+      margin-top:8%;
+    }
+    #pay_now {
+        border:1px solid transparent;
+        padding:16px;
+        width: 70%;
+        height: 40%;
+    }
+    }

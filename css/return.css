@@ -1,0 +1,70 @@
+.navbar-fixed-top{
+  height: 9%;
+}
+.navbar-right{
+  display:inline-block;
+  color: black;
+  font-family:sans-serif;
+  font-weight: bold;
+  font-size:132%;
+  letter-spacing: 2px;
+  padding-left: 4px;
+  text-decoration: none;
+}
+
+
+h1{
+font-family: sans-serif;
+font-weight:520;
+font-size:270%;
+letter-spacing: .15em;
+text-align:center;
+margin-top:6.5%;
+margin-bottom:4%
+}
+
+#thanks{
+color:#F1C40F;
+font-size:300%;
+padding:20px;
+margin-bottom: 6%;
+}
+
+
+#happy{
+color:#F08080;
+font-size:300%;
+padding:32px;
+border: 1px solid #D5DBDB ;
+box-shadow:1px 1px 12px 8px rgb(0 0 0 / 10%);
+}
+
+#imgbg1,#imgbg2{
+  width:70%;
+  height:40%;
+  margin:5% 0% 4% 12%;
+}
+
+footer{
+      margin-top:5%;
+      text-align: center;
+      font-size: 28px;
+    }
+
+    @media only screen and (min-width:360px) and (max-width:640px)
+    {
+    #logo{
+        margin-top:-18%;
+    }
+
+    #thanks,#happy{
+    font-size:250%;
+    }
+
+    #imgbg1{
+      padding-top:15%;
+      width:90%;
+      height:50%;
+
+    }
+    }
